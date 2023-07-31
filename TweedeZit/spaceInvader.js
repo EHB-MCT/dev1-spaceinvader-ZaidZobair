@@ -16,5 +16,17 @@ function drawInvader() {
     context.stroke();
     context.closePath();
 
-    
+    context.fillStyle = "#5cd854";
+
+    context.fillRect(75, 50, 50, 50);
+    context.fillRect(125, 50, 50, 50);
+    context.fillRect(175, 50, 50, 50);
+    context.fillRect(75, 100, 50, 50);
+    context.fillRect(175, 100, 50, 50);
+    context.fillRect(25, 150, 50, 50);
+    context.fillRect(225, 150, 50, 50);
+    context.fillRect(75, 225, 50, 50);
+    context.fillRect(125, 225, 50, 50);
+    context.fillRect(175, 225, 50, 50);
+
 }
